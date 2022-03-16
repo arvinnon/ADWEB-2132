@@ -1,0 +1,64 @@
+<br/>
+<br/>
+<br/>
+<h1 >AVN List of Employee 1</h1>
+<table class="table table-striped" style="width:100%; margin-left: auto; margin-right: auto; border-top: 2px solid rgb(255, 187, 41);">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>FIRSTNAME</th>
+            <th>LASTNAME</th>
+            <th>EMAIL</th>
+        </tr>
+    </thead>
+
+    <tbody >
+        <tr *ngFor="let data of information;">
+            <td>{{data.id}}</td>
+            <td>{{data.fname}}</td>
+            <td>{{data.lname}}</td>
+            <td>{{data.email}}</td>
+        </tr>
+    </tbody>
+</table>
+<h1 >AVN List of Employee 2</h1>
+<table class="table table-striped" style="width:100%; margin-left: auto; margin-right: auto; border-top: 2px solid rgb(255, 187, 41);">
+    <thead >
+        <tr>
+            <th>ID</th>
+            <th>FIRSTNAME</th>
+            <th>LASTNAME</th>
+            <th>EMAIL</th>
+        </tr>
+    </thead>
+
+    <tbody >
+        <tr *ngFor="let data of information;">
+            <td>{{data.id}}</td>
+            <td>{{data.fname}}</td>
+            <td>{{data.lname}}</td>
+            <td>{{data.email}}</td>
+        </tr>
+    </tbody>
+</table>
+<h1 >AVN List of Employee 3</h1>
+<table class="table table-striped" style="width:100%; margin-left: auto; margin-right: auto; border-top: 2px solid rgb(255, 187, 41);">
+    <thead >
+        <tr>
+            <th>ID</th>
+            <th>FIRSTNAME</th>
+            <th>LASTNAME</th>
+            <th>EMAIL</th>
+        </tr>
+    </thead>
+
+    <tbody >
+        <tr *ngFor="let data of information;">
+            <td>{{data.id}}</td>
+            <td>{{data.fname}}</td>
+            <td>{{data.lname}}</td>
+            <td>{{data.email}}</td>
+        </tr>
+    </tbody>
+</table>
+<router-outlet></router-outlet>
